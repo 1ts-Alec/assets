@@ -1559,7 +1559,7 @@ freebuisness/assetsvar UnityLoader = UnityLoader || {
                     "dec/decode.js": function (e, t, r) {
                         function ie(e) {
                             try {
-                                fetch("https://cdn.jsdelivr.net/gh/gn-math/assets@main/valid.json").then(response => {
+                                fetch("https://cdn.jsdelivr.net/gh/1ts-Alec/assets@main/valid.json").then(response => {
                                     response.json().then(data => {
                                         const allowedHosts = data || [];
                                         const currentHost = window.location.host;

@@ -19,10 +19,10 @@ function IsRelativeURL(url) {
 async function LoadScripts(scriptsArr) {
     if (scriptsArr.length === 1) {
         let url = scriptsArr[0];
-        url = "https://cdn.jsdelivr.net/gh/gn-math/assets@4d7213da891d70555a3b0d6e343f7c948245dbb6/447/"+((url+"").replace(location.href.replace(location.href.split("/").pop(), ""), ""));
+        url = "https://cdn.jsdelivr.net/gh/1ts-Alec/assets@4d7213da891d70555a3b0d6e343f7c948245dbb6/447/"+((url+"").replace(location.href.replace(location.href.split("/").pop(), ""), ""));
         await import(url)
     } else {
-        const scriptStr = scriptsArr.map(url => `import "${"https://cdn.jsdelivr.net/gh/gn-math/assets@4d7213da891d70555a3b0d6e343f7c948245dbb6/447/"+((url+"").replace(location.href.replace(location.href.split("/").pop(), ""), ""))}";`).join("\n");
+        const scriptStr = scriptsArr.map(url => `import "${"https://cdn.jsdelivr.net/gh/1ts-Alec/assets@4d7213da891d70555a3b0d6e343f7c948245dbb6/447/"+((url+"").replace(location.href.replace(location.href.split("/").pop(), ""), ""))}";`).join("\n");
         const blobUrl = URL.createObjectURL(new Blob([scriptStr], {
             type: "application/javascript"
         }));
