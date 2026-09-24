@@ -1,5 +1,11 @@
 [
   {
+    "id": 9999,
+    "name": "Game support form",
+    "url": "https://forms.gle/nETL62onh9Ksa4Am6",
+    "pinned": true
+  },
+  {
     "id": 0,
     "name": "Bowmasters",
     "cover": "{COVER_URL}/0.png",
@@ -538,7 +544,7 @@
     "name": "Basket Random",
     "cover": "{COVER_URL}/66.png",
     "url": "{HTML_URL}/66.html",
-    "author": "RHM Interactive OÜ",
+    "author": "RHM Interactive O\u00dc",
     "authorLink": "https://play.google.com/store/apps/dev?id=9182049342574405049&hl=en_US"
   },
   {
@@ -812,7 +818,7 @@
     "name": "Line Rider",
     "cover": "{COVER_URL}/95.png",
     "url": "{HTML_URL}/95.html",
-    "author": "Boštjan Čadež",
+    "author": "Bo\u0161tjan \u010cade\u017e",
     "authorLink": "https://fsk.deviantart.com",
     "special": [
       "flash"
@@ -863,7 +869,7 @@
     "name": "Ninja vs EvilCorp",
     "cover": "{COVER_URL}/101.png",
     "url": "{HTML_URL}/101.html",
-    "author": "Rémi Vansteelandt",
+    "author": "R\u00e9mi Vansteelandt",
     "authorLink": "https://remvst.com"
   },
   {
@@ -1005,7 +1011,7 @@
     "name": "Offroad Mountain Bike",
     "cover": "{COVER_URL}/116.png",
     "url": "{HTML_URL}/116.html",
-    "author": "RHM Interactive OÜ",
+    "author": "RHM Interactive O\u00dc",
     "authorLink": "https://play.google.com/store/apps/dev?id=9182049342574405049&hl=en_US"
   },
   {
@@ -2507,7 +2513,7 @@
     "name": "Idle Dice",
     "cover": "{COVER_URL}/294.png",
     "url": "{HTML_URL}/294.html",
-    "author": "Lutz Schönfelder",
+    "author": "Lutz Sch\u00f6nfelder",
     "authorLink": "https://github.com/luts91"
   },
   {
@@ -4125,7 +4131,7 @@
     "author": "atsuover etc",
     "authorLink": "https://gamebanana.com/mods/166531"
   },
-    {
+  {
     "id": 486,
     "name": "Friday Night Funkin': Sonic Legacy",
     "cover": "{COVER_URL}/486.png",
@@ -4133,7 +4139,7 @@
     "author": "JoeDoughBoi etc",
     "authorLink": "https://gamebanana.com/mods/496733"
   },
-    {
+  {
     "id": 487,
     "name": "Friday Night Funkin': vs. QT",
     "cover": "{COVER_URL}/487.png",
@@ -4141,7 +4147,7 @@
     "author": "Hazardous24 etc",
     "authorLink": "https://gamebanana.com/mods/299714"
   },
-    {
+  {
     "id": 488,
     "name": "Friday Night Funkin': Mistful Crimson Morning Reboot",
     "cover": "{COVER_URL}/488.png",
@@ -4149,12 +4155,12 @@
     "author": "Stonesteve etc",
     "authorLink": "https://gamebanana.com/mods/387663"
   },
-    {
+  {
     "id": 489,
     "name": "Friday Night Funkin': Indie Cross",
     "cover": "{COVER_URL}/489.png",
     "url": "{HTML_URL}/489.html",
-    "author": "MORØ etc",
+    "author": "MOR\u00d8 etc",
     "authorLink": "https://gamejolt.com/games/indiecross/643540"
   },
   {
@@ -4165,7 +4171,7 @@
     "author": "Neweichgames",
     "authorLink": "https://www.neweichgames.com"
   },
-    {
+  {
     "id": 491,
     "name": "I woke up next to you again.",
     "cover": "{COVER_URL}/491.png",
@@ -4173,7 +4179,7 @@
     "author": "angela he",
     "authorLink": "https://zephyo.itch.io/i-woke-up"
   },
-    {
+  {
     "id": 492,
     "name": "UNDERWHEELS",
     "cover": "{COVER_URL}/492.png",
@@ -4181,7 +4187,7 @@
     "author": "LakenDaCoda",
     "authorLink": "https://www.newgrounds.com/portal/view/987750"
   },
-    {
+  {
     "id": 493,
     "name": "RigBMX",
     "cover": "{COVER_URL}/493.png",
@@ -4189,7 +4195,7 @@
     "author": "Cartoon Network",
     "authorLink": "https://www.cartoonnetwork.com"
   },
-   {
+  {
     "id": 494,
     "name": "RigBMX 2",
     "cover": "{COVER_URL}/494.png",
@@ -4197,7 +4203,7 @@
     "author": "Cartoon Network",
     "authorLink": "https://www.cartoonnetwork.com"
   },
-   {
+  {
     "id": 495,
     "name": "groon groon, babey!",
     "cover": "{COVER_URL}/495.png",
@@ -4213,7 +4219,7 @@
     "author": "jeffyfansml99 etc",
     "authorLink": "https://gamebanana.com/mods/504934"
   },
-{
+  {
     "id": 497,
     "name": "Friday Night Funkin': vs. BOPCITY",
     "cover": "{COVER_URL}/497.png",
@@ -4221,7 +4227,7 @@
     "author": "Daniel Hummus",
     "authorLink": "https://gamebanana.com/mods/527514"
   },
-{
+  {
     "id": 498,
     "name": "Friday Night Funkin': 17 Bucks: Floor 1",
     "cover": "{COVER_URL}/498.png",
@@ -4335,7 +4341,7 @@
   },
   {
     "id": 509,
-    "name": "Friday Night Funkin’ Soft",
+    "name": "Friday Night Funkin\u2019 Soft",
     "cover": "{COVER_URL}/509.png",
     "url": "{HTML_URL}/509.html",
     "author": "ShiniTrexx etc",
@@ -4473,7 +4479,7 @@
       "emulator"
     ]
   },
-   {
+  {
     "id": 525,
     "name": "Friday Night Funkin': Darkness Takeover",
     "cover": "{COVER_URL}/525.png",
@@ -4680,7 +4686,7 @@
     "author": "heyjoeway and SEGA",
     "authorLink": "https://github.com/heyjoeway/s2disasm"
   },
-    {
+  {
     "id": 550,
     "name": "Sonic the Hedgehog 3: Angel Island Remastered",
     "cover": "{COVER_URL}/550.png",
@@ -5088,7 +5094,7 @@
     "cover": "{COVER_URL}/598.png",
     "url": "{HTML_URL}/598.html",
     "author": " Cinossu",
-    "authorLink": "https://info.sonicretro.org/An_Ordinary_Sonic_ROM_Hack" ,
+    "authorLink": "https://info.sonicretro.org/An_Ordinary_Sonic_ROM_Hack",
     "special": [
       "emulator"
     ]
@@ -5099,7 +5105,7 @@
     "cover": "{COVER_URL}/599.png",
     "url": "{HTML_URL}/599-f.html",
     "author": " Konami Computer Entertainment Japan",
-    "authorLink": "https://www.konami.com/" ,
+    "authorLink": "https://www.konami.com/",
     "special": [
       "emulator"
     ]
@@ -5110,7 +5116,7 @@
     "cover": "{COVER_URL}/600.png",
     "url": "{HTML_URL}/600.html",
     "author": "Hypno's Lullaby Team",
-    "authorLink": "https://gamebanana.com/wips/73522" ,
+    "authorLink": "https://gamebanana.com/wips/73522",
     "special": [
       "fnf"
     ]
@@ -5121,7 +5127,7 @@
     "cover": "{COVER_URL}/601.png",
     "url": "{HTML_URL}/601.html",
     "author": "FNF Vs. Sonic.EXE Team",
-    "authorLink": "https://gamebanana.com/mods/531361" ,
+    "authorLink": "https://gamebanana.com/mods/531361",
     "special": [
       "fnf"
     ]
@@ -5132,7 +5138,7 @@
     "cover": "{COVER_URL}/602.png",
     "url": "{HTML_URL}/602.html",
     "author": "id Software",
-    "authorLink": "https://www.idsoftware.com/" ,
+    "authorLink": "https://www.idsoftware.com/",
     "special": [
       "emulator"
     ]
@@ -5197,7 +5203,7 @@
     "cover": "{COVER_URL}/608.png",
     "url": "{HTML_URL}/608.html",
     "author": "Imposter v4 team",
-    "authorLink": "https://gamebanana.com/mods/55652" ,
+    "authorLink": "https://gamebanana.com/mods/55652",
     "special": [
       "fnf"
     ]
@@ -5208,7 +5214,7 @@
     "cover": "{COVER_URL}/609.png",
     "url": "{HTML_URL}/609-a.html",
     "author": "Sunday Remastered team",
-    "authorLink": "https://gamebanana.com/mods/323254" ,
+    "authorLink": "https://gamebanana.com/mods/323254",
     "special": [
       "fnf"
     ]
@@ -5219,7 +5225,7 @@
     "cover": "{COVER_URL}/610.png",
     "url": "{HTML_URL}/610.html",
     "author": "Carol V2 team",
-    "authorLink": "https://gamebanana.com/mods/42811" ,
+    "authorLink": "https://gamebanana.com/mods/42811",
     "special": [
       "fnf"
     ]
@@ -5254,7 +5260,7 @@
     "cover": "{COVER_URL}/613.png",
     "url": "{HTML_URL}/613.html",
     "author": "Drop and roll team",
-    "authorLink": "https://gamebanana.com/mods/514851" ,
+    "authorLink": "https://gamebanana.com/mods/514851",
     "special": [
       "fnf"
     ]
@@ -5273,18 +5279,18 @@
     "cover": "{COVER_URL}/615.png",
     "url": "{HTML_URL}/615.html-a",
     "author": "Dave and Bambi team",
-    "authorLink": "https://gamebanana.com/mods/43201" ,
+    "authorLink": "https://gamebanana.com/mods/43201",
     "special": [
       "fnf"
     ]
   },
   {
     "id": 616,
-    "name": "Friday Night Funkin’ Wednesday's Infidelity",
+    "name": "Friday Night Funkin\u2019 Wednesday's Infidelity",
     "cover": "{COVER_URL}/616.png",
     "url": "{HTML_URL}/616.html",
     "author": "Wednesday's Infidelity team",
-    "authorLink": "https://gamebanana.com/mods/343688" ,
+    "authorLink": "https://gamebanana.com/mods/343688",
     "special": [
       "fnf"
     ]
@@ -5299,11 +5305,11 @@
   },
   {
     "id": 618,
-    "name": "FNF vs Bob v2.0 (Bob’s Onslaught)",
+    "name": "FNF vs Bob v2.0 (Bob\u2019s Onslaught)",
     "cover": "{COVER_URL}/618.png",
     "url": "{HTML_URL}/618.html",
     "author": "bob v2.0 team",
-    "authorLink": "https://gamebanana.com/mods/621085" ,
+    "authorLink": "https://gamebanana.com/mods/621085",
     "special": [
       "fnf"
     ]
@@ -5314,7 +5320,7 @@
     "cover": "{COVER_URL}/619.png",
     "url": "{HTML_URL}/619.html",
     "author": "Rev-Mixed team",
-    "authorLink": "https://gamebanana.com/mods/621085" ,
+    "authorLink": "https://gamebanana.com/mods/621085",
     "special": [
       "fnf"
     ]
@@ -5333,7 +5339,7 @@
     "cover": "{COVER_URL}/621.png",
     "url": "{HTML_URL}/621.html",
     "author": "Gumballs team",
-    "authorLink": "https://gamebanana.com/mods/614094" ,
+    "authorLink": "https://gamebanana.com/mods/614094",
     "special": [
       "fnf"
     ]
@@ -5446,7 +5452,7 @@
     "cover": "{COVER_URL}/633.png",
     "url": "{HTML_URL}/633.html",
     "author": "Alternated team",
-    "authorLink": "https://gamebanana.com/mods/598215" ,
+    "authorLink": "https://gamebanana.com/mods/598215",
     "special": [
       "fnf"
     ]
@@ -5457,7 +5463,7 @@
     "cover": "{COVER_URL}/634.png",
     "url": "{HTML_URL}/634.html",
     "author": "Fleetway team",
-    "authorLink": "https://gamebanana.com/mods/359046" ,
+    "authorLink": "https://gamebanana.com/mods/359046",
     "special": [
       "fnf"
     ]
@@ -6005,13 +6011,13 @@
       "flash"
     ]
   },
-   {
+  {
     "id": 690,
     "name": "Friday Night Funkin': AKAGE",
     "cover": "{COVER_URL}/690.png",
     "url": "{HTML_URL}/690.html",
     "author": "owoskitty etc",
-    "authorLink": "https://gamebanana.com/mods/578842" ,
+    "authorLink": "https://gamebanana.com/mods/578842",
     "special": [
       "fnf"
     ]
@@ -6022,7 +6028,7 @@
     "cover": "{COVER_URL}/691.png",
     "url": "{HTML_URL}/691.html",
     "author": "REDUX Team",
-    "authorLink": "https://gamebanana.com/mods/632935" ,
+    "authorLink": "https://gamebanana.com/mods/632935",
     "special": [
       "fnf"
     ]
@@ -6033,7 +6039,7 @@
     "cover": "{COVER_URL}/692.png",
     "url": "{HTML_URL}/692.html",
     "author": "Strimp's Kitchen",
-    "authorLink": "https://strimps-kitchen.itch.io/kirby-soft-and-wet" ,
+    "authorLink": "https://strimps-kitchen.itch.io/kirby-soft-and-wet",
     "special": [
       "port"
     ]
@@ -6114,7 +6120,7 @@
     "cover": "{COVER_URL}/700.png",
     "url": "{HTML_URL}/700.html",
     "author": "Pibby Corrupted team",
-    "authorLink": "https://gamebanana.com/mods/download/344757" ,
+    "authorLink": "https://gamebanana.com/mods/download/344757",
     "special": [
       "fnf"
     ]
@@ -6489,10 +6495,10 @@
   },
   {
     "id": 737,
-    "name": "Saihate Station (さいはて駅)",
+    "name": "Saihate Station (\u3055\u3044\u306f\u3066\u99c5)",
     "cover": "{COVER_URL}/737.png",
     "url": "{HTML_URL}/737.html",
-    "author": "びぶ/viv",
+    "author": "\u3073\u3076/viv",
     "authorLink": "https://store.steampowered.com/app/3079280/Saihate_Station/",
     "special": [
       "port"
@@ -6511,7 +6517,7 @@
     "name": "Soccer Random",
     "cover": "{COVER_URL}/739.png",
     "url": "{HTML_URL}/739.html",
-    "author": "RHM Interactive OÜ",
+    "author": "RHM Interactive O\u00dc",
     "authorLink": "https://play.google.com/store/apps/details?id=com.twoplayergames.soccerrandom"
   },
   {
@@ -7304,7 +7310,7 @@
   },
   {
     "id": 818,
-    "name": "t³ (T cubed)",
+    "name": "t\u00b3 (T cubed)",
     "cover": "{COVER_URL}/818.png",
     "url": "{HTML_URL}/818.html",
     "author": "Blidb",
@@ -7435,7 +7441,7 @@
     "name": "Touhou 1 Touhou-Reiiden",
     "cover": "{COVER_URL}/829.png",
     "url": "{HTML_URL}/829.html",
-    "author": "Jun'ya Ōta (\"ZUN\")",
+    "author": "Jun'ya \u014cta (\"ZUN\")",
     "authorLink": "https://en.touhougarakuta.com/eastern-playing-en/toho-no-asobikata-en/",
     "special": [
       "emulator",
@@ -7447,7 +7453,7 @@
     "name": "Touhou 2 Touhou-Fuumaroku",
     "cover": "{COVER_URL}/830.png",
     "url": "{HTML_URL}/830.html",
-    "author": "Jun'ya Ōta (\"ZUN\")",
+    "author": "Jun'ya \u014cta (\"ZUN\")",
     "authorLink": "https://en.touhougarakuta.com/eastern-playing-en/toho-no-asobikata-en/",
     "special": [
       "emulator",
@@ -7459,7 +7465,7 @@
     "name": "Touhou 3 Touhou-Yumejikuu",
     "cover": "{COVER_URL}/831.png",
     "url": "{HTML_URL}/831.html",
-    "author": "Jun'ya Ōta (\"ZUN\")",
+    "author": "Jun'ya \u014cta (\"ZUN\")",
     "authorLink": "https://en.touhougarakuta.com/eastern-playing-en/toho-no-asobikata-en/",
     "special": [
       "emulator",
@@ -7471,7 +7477,7 @@
     "name": "Touhou 4 Touhou-Gensokyou",
     "cover": "{COVER_URL}/832.png",
     "url": "{HTML_URL}/832.html",
-    "author": "Jun'ya Ōta (\"ZUN\")",
+    "author": "Jun'ya \u014cta (\"ZUN\")",
     "authorLink": "https://en.touhougarakuta.com/eastern-playing-en/toho-no-asobikata-en/",
     "special": [
       "emulator",
@@ -7483,7 +7489,7 @@
     "name": "Touhou 5 Touhou-Kaikidan",
     "cover": "{COVER_URL}/833.png",
     "url": "{HTML_URL}/833.html",
-    "author": "Jun'ya Ōta (\"ZUN\")",
+    "author": "Jun'ya \u014cta (\"ZUN\")",
     "authorLink": "https://en.touhougarakuta.com/eastern-playing-en/toho-no-asobikata-en/",
     "special": [
       "emulator",
@@ -7536,7 +7542,7 @@
     "name": "Vena",
     "cover": "{COVER_URL}/838.png",
     "url": "{HTML_URL}/838.html",
-    "author": "Leonhard Kohl-Lörting",
+    "author": "Leonhard Kohl-L\u00f6rting",
     "authorLink": "https://loerting.itch.io/vena"
   },
   {
@@ -7655,8 +7661,8 @@
     "author": "Azahar Contributors, Sexyplankton",
     "authorLink": "https://github.com/azahar-emu/azahar",
     "special": [
-    "emulator",
-    "tools"
+      "emulator",
+      "tools"
     ]
   },
   {
