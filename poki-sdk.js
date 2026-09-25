@@ -1,4 +1,4 @@
-freebuisness/assets(() => { 
+(() => { 
     var e = function (e) { 
         var n = RegExp("[?&]" + e + "=([^&]*)").exec(window.location.search);
         return n && decodeURIComponent(n[1].replace(/\+/g, " "));
