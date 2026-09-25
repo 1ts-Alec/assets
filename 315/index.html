@@ -151,10 +151,17 @@ Loading&nbsp;<span id="loadedPercent">0</span>%
 <script src="lib/stats.min.js"></script>
 <script src="lib/dat.gui.min.js"></script>
 <script src="build/main.js?2"></script>
-<script>
-    window.onload = function () {
-        document.getElementById('playButton').click();
-    }
+    <script>
+    // Auto-start once the game exposes the play button (onload is too early on slow CDNs).
+    (function waitAndStart() {
+      var play = document.getElementById('play');
+      var btn = document.getElementById('playButton');
+      if (play && btn && play.style.display !== 'none' && getComputedStyle(play).display !== 'none') {
+        btn.click();
+        return;
+      }
+      setTimeout(waitAndStart, 200);
+    })();
     </script>
 </body>
 </html>
