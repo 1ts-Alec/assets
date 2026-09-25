@@ -467,10 +467,8 @@
                 });
                 return new Worker(URL.createObjectURL(blob), workerOpts)
             }
-            let absUrl = new URL(url, baseUrl);
-            absUrl = document.querySelector('base').href+((absUrl+"").replace(location.href.replace(location.href.split("/").pop(), ""), ""));
-            console.log(absUrl);
-            const isCrossOrigin = true;
+            const absUrl = new URL(url, baseUrl);
+            const isCrossOrigin = location.origin !== absUrl.origin;
             if (isCrossOrigin) {
                 const response = await fetch(absUrl);
                 if (!response.ok) throw new Error("failed to fetch worker script");
