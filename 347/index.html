@@ -1,14 +1,32 @@
-freebuisness/assets<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <base href="https://cdn.jsdelivr.net/gh/1ts-Alec/assets@main/347/">
+    <base href="./">
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | SpiderDoll</title>
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="finnalstyle.css">
-    <script src="https://cdn.jsdelivr.net/gh/1ts-Alec/assets@main/merge.js"></script>
+    <style>
+body { padding: 0; margin: 0; width: 100%!important; height: 100%!important; }
+#unity-container { position: absolute; left: 0; top: 0; position: absolute; width: 100%!important; height: 100%!important; }
+#unity-container.unity-desktop { left: 0; top: 0; position: absolute; width: 100%!important; height: 100%!important; }
+#unity-container.unity-mobile { width: 100%; height: 100% }
+#unity-canvas { background: #231F20; width: 100%!important; height: 100%!important; }
+.unity-mobile #unity-canvas { width: 100%; height: 100% }
+#unity-loading-bar { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: none }
+#unity-logo { width: 154px; height: 130px; background: url('unity-logo-dark.png') no-repeat center }
+#unity-progress-bar-empty { width: 141px; height: 18px; margin-top: 10px; background: url('progress-bar-empty-dark.png') no-repeat center }
+#unity-progress-bar-full { width: 0%; height: 18px; margin-top: 10px; background: url('progress-bar-full-dark.png') no-repeat center }
+#unity-footer { position: relative; display: none; }
+.unity-mobile #unity-footer { display: none }
+#unity-webgl-logo { float:left; width: 204px; height: 38px; background: url('webgl-logo.png') no-repeat center }
+#unity-build-title { float: right; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px }
+#unity-fullscreen-button { float: right; width: 38px; height: 38px; background: url('fullscreen-button.png') no-repeat center }
+
+</style>
+    <script src="../merge.js"></script>
   <body>
+    <div id="loading-text" style="color:#fff;text-align:center;margin-top:20px;">LOADING...</div>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas"></canvas>
       <div id="unity-loading-bar">
@@ -22,13 +40,14 @@ freebuisness/assets<!DOCTYPE html>
       Promise.all([
           window.mergeFiles(window.getParts("Build.data", 1, 2)),
           window.mergeFiles(window.getParts("Build.wasm", 1, 2)),
-      ]).then(([wasmUrl, dataUrl]) => {
+      ]).then(([dataUrl, codeUrl]) => {
+        document.getElementById("loading-text")?.remove();
         var buildUrl = "Build";
         var loaderUrl ="Build.loader.js";
         var config = {
-          dataUrl:"Build.data",
+          dataUrl: dataUrl,
           frameworkUrl:"Build.framework.js",
-          codeUrl:"Build.wasm",
+          codeUrl: codeUrl,
           streamingAssetsUrl: "StreamingAssets",
           companyName: "DefaultCompany",
           productName: "SpiderDoll",
