@@ -1953,9 +1953,10 @@
 'use strict';
 {
     if (window["C3_IsSupported"]) {
-        const enableWorker = true;
+        const enableWorker = false; // disabled: CDN cross-origin base breaks worker imports
         window["c3_runtimeInterface"] = new self.RuntimeInterface({
             useWorker: enableWorker,
+            runtimeBaseUrl: (document.querySelector("base") && document.querySelector("base").href) || (location.origin + location.pathname.replace(/[^/]+$/, "")),
             workerMainUrl: "workermain.js",
             engineScripts: ["scripts/c3runtime.js"],
             projectScripts: [],
