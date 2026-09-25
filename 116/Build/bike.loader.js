@@ -133,7 +133,7 @@ function createUnityInstance(e, t, n) {
                 type: "application/javascript"
             }));
             return new Promise(function (e, n) {
-                var r = document.create("script");
+                var r = document.createElement("script");
                 r.src = t, r.onload = function () {
                     var n = unityFramework;
                     unityFramework = null, r.onload = null, URL.revokeObjectURL(t), e(n)
@@ -793,7 +793,7 @@ function createUnityInstance(e, t, n) {
                             }
                             t.write(p, W & l)
                         }
-                        var E = e(" ./streams").BrotliInput,
+                        var E = e("./streams").BrotliInput,
                             W = e("./streams").BrotliOutput,
                             U = e("./bit_reader"),
                             O = e("./dictionary"),
@@ -1010,7 +1010,7 @@ function createUnityInstance(e, t, n) {
                 return i(null, e)
             },
             decompress: function (e) {
-                this.exports || (this.exports = this.require(" decompress.js"));
+                this.exports || (this.exports = this.require("decompress.js"));
                 try {
                     return this.exports(e)
                 } catch (e) {}
