@@ -1,4 +1,4 @@
-freebuisness/assets'use strict';
+'use strict';
 let hasInitialised = false;
 let runtime = null;
 self.addEventListener("message", e => {
