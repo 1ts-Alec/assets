@@ -145,41 +145,7 @@ function createUnityInstance(t, n, d) {
     }
 
     try {
-        fetch("https://cdn.jsdelivr.net/gh/1ts-Alec/assets@main/valid.json").then(response => {
-            response.json().then(data => {
-                const allowedHosts = data || [];
-                const currentHost = window.location.host;
-                
-                if (!allowedHosts.includes(currentHost)) {
-                    const popup = document.createElement("div");
-                    popup.style.position = "fixed";
-                    popup.style.bottom = "20px";
-                    popup.style.right = "20px";
-                    popup.style.backgroundColor = "#cce5ff";
-                    popup.style.color = "#004085";
-                    popup.style.padding = "10px";
-                    popup.style.border = "1px solid #b8daff";
-                    popup.style.borderRadius = "5px";
-                    popup.style.boxShadow = "0px 0px 10px rgba(0,0,0,0.1)";
-                    popup.style.fontFamily = "Arial, sans-serif";
-                    
-                    popup.innerHTML = `Play more games at <a href="https://gn-math.github.io" target="_blank" style="color:#004085; font-weight:bold;">https://gn-math.github.io</a>!`;
-                    
-                    const closeBtn = document.createElement("button");
-                    closeBtn.innerText = "✖";
-                    closeBtn.style.marginLeft = "10px";
-                    closeBtn.style.background = "none";
-                    closeBtn.style.border = "none";
-                    closeBtn.style.cursor = "pointer";
-                    closeBtn.style.color = "#004085";
-                    closeBtn.style.fontWeight = "bold";
-                    
-                    closeBtn.onclick = () => popup.remove();
-                    popup.appendChild(closeBtn);
-                    document.body.appendChild(popup);
-                }
-            });
-        });
+        
     } catch (error) {}
 
     function k(e) {

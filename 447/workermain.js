@@ -19,10 +19,10 @@ function IsRelativeURL(url) {
 async function LoadScripts(scriptsArr) {
     if (scriptsArr.length === 1) {
         let url = scriptsArr[0];
-        url = "https://cdn.jsdelivr.net/gh/1ts-Alec/assets@f092ba42ee7f2c5e09bc3a0001e8ae8585763032/447/"+((url+"").replace(location.href.replace(location.href.split("/").pop(), ""), ""));
+        url = "https://raw.esm.sh/gh/1ts-Alec/assets@f092ba42ee7f2c5e09bc3a0001e8ae8585763032/447/"+((url+"").replace(location.href.replace(location.href.split("/").pop(), ""), ""));
         await import(url)
     } else {
-        const scriptStr = scriptsArr.map(url => `import "${"https://cdn.jsdelivr.net/gh/1ts-Alec/assets@f092ba42ee7f2c5e09bc3a0001e8ae8585763032/447/"+((url+"").replace(location.href.replace(location.href.split("/").pop(), ""), ""))}";`).join("\n");
+        const scriptStr = scriptsArr.map(url => `import "${"https://raw.esm.sh/gh/1ts-Alec/assets@f092ba42ee7f2c5e09bc3a0001e8ae8585763032/447/"+((url+"").replace(location.href.replace(location.href.split("/").pop(), ""), ""))}";`).join("\n");
         const blobUrl = URL.createObjectURL(new Blob([scriptStr], {
             type: "application/javascript"
         }));
