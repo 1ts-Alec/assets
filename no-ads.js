@@ -14,11 +14,16 @@
     'taboola.com', 'outbrain.com', 'adsafeprotected.com', 'moatads.com', 'fbrq.io',
     'mc.yandex.ru', 'facebook.net', 'facebook.com', 'saygames.io', 'bytebrew.io', 'vntsm.io',
     'mochiads.com', 'mochibot.com', 'mochitot.com', 'ngads.com', 'fliplineads.com', 'poki.com', 'poki.io',
-    'gameanalytics.com'
+    'gameanalytics.com', 'onrushstats.com'
   ];
+  // Ad libraries served from public CDNs, matched by host + path prefix.
+  var BLOCKED_PATHS = ['cdn.jsdelivr.net/gh/prebid/', 'cdn.jsdelivr.net/npm/prebid'];
   function blocked(url) {
     try {
-      var h = new URL(String(url), document.baseURI).hostname;
+      var u = new URL(String(url), document.baseURI), h = u.hostname, hp = h + u.pathname;
+      for (var j = 0; j < BLOCKED_PATHS.length; j++) {
+        if (hp.indexOf(BLOCKED_PATHS[j]) === 0) return true;
+      }
       for (var i = 0; i < BLOCKED.length; i++) {
         var d = BLOCKED[i];
         if (h === d || h.slice(-d.length - 1) === '.' + d) return true;
