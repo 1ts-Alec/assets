@@ -1,5 +1,5 @@
 const originalFetch = window.fetch;
-const RAW = "https://raw.githubusercontent.com/1ts-Alec/assets/2a0baec91516e729bf6ed492fda9e34aa19eabb0/286/";
+const RAW = "https://raw.esm.sh/gh/1ts-Alec/assets@2a0baec91516e729bf6ed492fda9e34aa19eabb0/286/";
 
 function mergeFiles(fileParts) {
     return new Promise((resolve, reject) => {
