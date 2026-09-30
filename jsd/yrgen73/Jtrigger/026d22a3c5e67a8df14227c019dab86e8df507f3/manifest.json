@@ -1,0 +1,16 @@
+{
+	"initial": [
+		"https://raw.esm.sh/gh/1ts-Alec/assets@jsd-1/jsd/yrgen73/Jtrigger/050cca2d3bdad0e560f178b63ea2248198dff907/js/egret.min_d92caeca.js",
+		"https://raw.esm.sh/gh/1ts-Alec/assets@jsd-1/jsd/yrgen73/Jtrigger/050cca2d3bdad0e560f178b63ea2248198dff907/js/egret.web.min_e835c5d0.js",
+		"https://raw.esm.sh/gh/1ts-Alec/assets@jsd-1/jsd/yrgen73/Jtrigger/050cca2d3bdad0e560f178b63ea2248198dff907/js/game.min_8f561331.js",
+		"https://raw.esm.sh/gh/1ts-Alec/assets@jsd-1/jsd/yrgen73/Jtrigger/050cca2d3bdad0e560f178b63ea2248198dff907/js/tween.min_6c5a88f9.js",
+		"https://raw.esm.sh/gh/1ts-Alec/assets@jsd-1/jsd/yrgen73/Jtrigger/050cca2d3bdad0e560f178b63ea2248198dff907/js/assetsmanager.min_77c2fdfe.js",
+		"https://raw.esm.sh/gh/1ts-Alec/assets@jsd-1/jsd/yrgen73/Jtrigger/050cca2d3bdad0e560f178b63ea2248198dff907/js/promise.min_83a6a5d.js",
+		"https://raw.esm.sh/gh/1ts-Alec/assets@jsd-1/jsd/yrgen73/Jtrigger/050cca2d3bdad0e560f178b63ea2248198dff907/js/particle.min_27fe451d.js",
+		"https://raw.esm.sh/gh/1ts-Alec/assets@jsd-1/jsd/yrgen73/Jtrigger/050cca2d3bdad0e560f178b63ea2248198dff907/js/Box2dweb.min_cd7b197d.js",
+		"https://raw.esm.sh/gh/1ts-Alec/assets@jsd-1/jsd/yrgen73/Jtrigger/050cca2d3bdad0e560f178b63ea2248198dff907/js/vconsole.min_314a0209.js"
+	],
+	"game": [
+		"https://raw.esm.sh/gh/1ts-Alec/assets@jsd-1/jsd/yrgen73/Jtrigger/a916afc01e9a6e489c56f83af1c79073ae9336f6/js/3main.min_31cdbd8e.js"
+	]
+}
